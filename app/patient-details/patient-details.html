@@ -1,0 +1,12 @@
+<div class="panel panel-default patient-details">
+    <div class="panel-heading"><h4>Patient Details</h4></div>
+    <div class="panel-body">
+        <div class="no-patient-selected-message" ng-if="!vm.patient">No Patient Selected</div>
+        <table class="patient-details-table" ng-if="vm.patient">
+            <tr ng-repeat="(key, value) in vm.patient">
+              <th ng-class="{'no-bottom-padding': $last}">{{vm.convertKeyToFieldName(key)}}</th>
+              <td>{{vm.convertBooleanToString(value)}}</td>
+            </tr>
+        </table>
+    </div>
+  </div>

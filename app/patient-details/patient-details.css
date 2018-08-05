@@ -1,0 +1,42 @@
+.patient-details {
+    margin-bottom: 0;
+}
+.patient-details .panel-heading {
+    padding-left: 50px;
+}
+
+.patient-details .panel-heading h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--theme-color);
+}
+
+.patient-details .panel-body {
+    padding-left: 50px;
+    padding-bottom: 0;
+    display: block;
+    max-height: calc(100vh - 155px);
+    overflow-y: auto;
+}
+
+.patient-details .panel-body .no-patient-selected-message {
+    height: 30px;
+}
+
+.patient-details-table {
+    width: 50%;
+}
+
+.patient-details-table th {
+    width: 100px;
+    padding: 7px 5px;
+    vertical-align: baseline;
+}
+
+.patient-details-table th.no-bottom-padding {
+    padding-bottom: 0;
+}
+
+.patient-details-table td {
+    vertical-align: baseline;
+}

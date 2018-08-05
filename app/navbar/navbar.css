@@ -1,0 +1,18 @@
+.pr-navbar {
+    background-color: var(--theme-color);
+    border-color: #200041;
+    border-radius: 0;
+}
+
+.pr-navbar .container-fluid {
+    padding: 5px 50px;
+}
+
+.pr-navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.pr-navbar .navbar-right .label {
+    font-size: 15px;
+    color: #fff;
+}

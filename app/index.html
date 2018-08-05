@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Patients Repository</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!-- Global Stylesheets -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+
+  <!-- Application specific stylesheets -->
+  <link rel="stylesheet" href="./root/root.css">
+  <link rel="stylesheet" href="./navbar/navbar.css">
+  <link rel="stylesheet" href="./patient-details/patient-details.css">
+  <link rel="stylesheet" href="./common/components/dropdown/dropdown.css">
+  
+  <!--Module JS Files-->
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  
+  <!-- Application specific JS Files -->
+  <script src="./app.js"></script>
+  <script src="./root/root.module.js"></script>
+  <script src="./root/root-controller.js"></script>
+  <script src="./navbar/navbar.module.js"></script>
+  <script src="./navbar/navbar-directive.js"></script>
+  <script src="./navbar/navbar-controller.js"></script>
+  <script src="./patient-details/patient-details.module.js"></script>
+  <script src="./patient-details/patient-details-directive.js"></script>
+  <script src="./patient-details/patient-details-controller.js"></script>
+  <script src="./common/components/dropdown/dropdown.module.js"></script>
+  <script src="./common/components/dropdown/dropdown-directive.js"></script>
+  <script src="./common/components/dropdown/dropdown-controller.js"></script>
+  <script src="./common/services/patients.module.js"></script>
+  <script src="./common/services/patients.service.js"></script>
+  <script src="./common/utils/utils.module.js"></script>
+  <script src="./common/utils/ng-escape-directive.js"></script>
+
+</head>
+<body>
+  <div ng-view></div>
+</body>
+</html>
