@@ -2,7 +2,7 @@
 
 PATIENTS REPOSITORY is an AngularJS application for searching patients and viewing their details.
 
-This application in supported and tested in Google Chrome, Mozilla Firefox and Edge browser.
+This application is supported and tested in Google Chrome, Mozilla Firefox and Edge browser.
 
 ### Running directly on any server
 To run the application from your local server, follow the below steps :
@@ -14,7 +14,7 @@ To run the application from your local server, follow the below steps :
 * nodejs
 
 ### Development
-Run the following common to set up the development environment and start coding. It will install the required node and bower modules.
+Run the following command to set up the development environment and start coding. It will install the required node and bower modules.
 ```
 $ npm start
 ```
